@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: #2d6a4f;
+  color: white;
+  padding: 1em 0;
+}
+
+#location-section {
+  margin: 20px;
+}
+
+#districtSelect, button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1em;
+}
+
+#dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  width: 180px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  font-size: 1em;
+  color: #2d6a4f;
+}
+
+.card p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+button {
+  background-color: #1b4332;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #40916c;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 0.9em;
+  background: #f0f0f0;
+}

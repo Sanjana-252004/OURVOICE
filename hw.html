@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Voice, Our Rights - Karnataka MGNREGA Dashboard</title>
+  <link rel="stylesheet" href="hw.css">
+  <script defer src="hw.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Our Voice, Our Rights</h1>
+    <p>MGNREGA Performance - Karnataka Districts</p>
+  </header>
+
+  <section id="location-section">
+    <button id="detectBtn">Detect My District</button>
+    <label for="districtSelect">Or select your district:</label>
+    <select id="districtSelect">
+      <option value="">-- Select District --</option>
+      <option>Bengaluru Urban</option>
+      <option>Bengaluru Rural</option>
+      <option>Mysuru</option>
+      <option>Belagavi</option>
+      <option>Ballari</option>
+      <option>Kalaburagi</option>
+      <option>Dakshina Kannada</option>
+      <option>Udupi</option>
+      <option>Davangere</option>
+      <option>Shivamogga</option>
+    </select>
+  </section>
+
+  <section id="dashboard">
+    <div class="card">
+      <h3>Workers Employed</h3>
+      <p id="workers">--</p>
+    </div>
+    <div class="card">
+      <h3>Total Work Days</h3>
+      <p id="personDays">--</p>
+    </div>
+    <div class="card">
+      <h3>Money Spent (₹ Crore)</h3>
+      <p id="expenditure">--</p>
+    </div>
+    <div class="card">
+      <h3>Women Participation</h3>
+      <p id="women">--%</p>
+    </div>
+  </section>
+
+  <section id="controls">
+    <button id="voiceBtn">Speak Data Again</button>
+  </section>
+
+  <footer>
+    <p>Data simulated for demo. Live MGNREGA data can be fetched from data.gov.in API for Karnataka.</p>
+  </footer>
+</body>
+</html>
